@@ -1123,6 +1123,40 @@ body {
 }
 
 
+/* Responsive Styles - Increase width of cards on mobile */
+
+@media (max-width: 1200px) {
+    .testimonial-card {
+        flex: 0 0 25%;
+        /* Maintain 4 testimonials per row */
+    }
+}
+
+@media (max-width: 900px) {
+    .testimonial-card {
+        flex: 0 0 33.33%;
+        /* Maintain 3 testimonials per row */
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .testimonial-card {
+        flex: 0 0 50%;
+        /* Maintain 2 testimonials per row */
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .testimonial-card {
+        flex: 0 0 100%;
+        /* 1 testimonial per row */
+        margin: 0.5rem 0;
+    }
+}
+
+
 /* Container for the team section */
 
 
